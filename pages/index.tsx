@@ -38,12 +38,12 @@ const Home: NextPage = () => {
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>
-                  Klatyn Gaming Hub
+                  Klatyn RWA Hub
                 </span>
                 <br />
               </h1>
               <h2>
-                Trade Unique Gaming NFTs on Klatyn s Premier Marketplace 🌐
+                Trade Unique RWA NFTs on Klatyn s Premier Marketplace 🌐
               </h2>
               <br />
             </div>
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
         </div>
         <div className="text-center mx-56">
             <p className={styles.heroSubtitle}>
-              Seamlessly trade, collect, and explore unique gaming NFTs while having access to comprehensive transaction history. Immerse yourself in the future of gaming and unlock the true potential of digital ownership.
+              Seamlessly trade, collect, and explore unique RWA NFTs while having access to comprehensive transaction history. Immerse yourself in the future of RWA and unlock the true potential of digital ownership.
             </p>
                 <div className={styles.heroCtaContainer}>
                   <Link className={styles.heroCta} href="/buy">
