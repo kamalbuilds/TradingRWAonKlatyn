@@ -16,7 +16,7 @@ export function Navbar() {
               src="/marketplace.png"
               width={48}
               height={48}
-              alt="NFT marketplace sample logo"
+              alt="RWA NFT marketplace"
             />
           </Link>
 
