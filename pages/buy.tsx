@@ -11,7 +11,7 @@ export default function Buy() {
 
   return (
     <Container maxWidth="lg">
-      <h1>Buy RWA NFTs from the Collection</h1>
+      <h1>Buy RWA NFTs from different Collections</h1>
       <br />
       <NFTGrid
         data={data}

@@ -12,27 +12,6 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.hero}>
-          <div className={styles.heroBackground}>
-            <div className={styles.heroBackgroundInner}>
-              <Image
-                src="/hero-gradient.png"
-                width={1390}
-                height={1390}
-                alt="Background gradient from red to blue"
-                quality={100}
-                className={styles.gradient}
-              />
-            </div>
-          </div>
-          <div className={styles.heroAssetFrame}>
-            <Image
-              src="/home.png"
-              width={860}
-              height={540}
-              alt="Hero asset, NFT marketplace"
-              quality={100}
-              className={styles.heroAsset}
-            />
           </div>
           <div className={styles.heroBodyContainer}>
             <div className={styles.heroBody}>
@@ -66,6 +45,27 @@ const Home: NextPage = () => {
                   </Link>
                 </div>
               </div>
+              <div className={styles.heroBackground}>
+              <div className={styles.heroBackgroundInner}>
+                  <Image
+                    src="/hero-gradient.png"
+                    width={1390}
+                    height={1390}
+                    alt="Background gradient from red to blue"
+                  quality={100}
+                    className={styles.gradient}
+                  />
+              </div>
+              <div className={styles.heroAssetFrame}>
+              <Image
+                src="/home.png"
+                width={860}
+                height={540}
+                alt="Hero asset, NFT marketplace"
+                quality={100}
+                className={styles.heroAsset}
+              />
+          </div>
       </div>
     </div>
   );
